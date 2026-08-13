@@ -45,7 +45,7 @@ export default function TipSelector({
           </label>
         ))}
 
-        <div className="v-field">
+        <div className="v-field pl-2">
           <label htmlFor="custom-tip" className="sr-only">
             Custom tip percentage
           </label>

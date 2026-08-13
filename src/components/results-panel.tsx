@@ -36,12 +36,15 @@ export default function ResultsPanel({
 
 function ResultRow({ label, amount }: { label: string; amount: string }) {
   return (
-    <div className="flex items-center justify-between gap-4">
+    <div className="flex flex-wrap items-center gap-x-3">
       <dt className="text-label text-white">
         {label}
         <span className="block text-sublabel text-grayish-cyan">/ person</span>
       </dt>
-      <dd className="text-amount tracking-amount text-strong-cyan lg:text-amount-lg">
+      <dd
+        title={amount}
+        className="ml-auto min-w-0 truncate text-amount tracking-amount text-strong-cyan lg:text-amount-lg"
+      >
         {amount}
       </dd>
     </div>
