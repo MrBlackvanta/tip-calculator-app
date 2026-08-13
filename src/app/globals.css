@@ -1,5 +1,46 @@
 @import "tailwindcss";
 
+@theme {
+  --color-strong-cyan: #26c2ae;
+  --color-very-dark-cyan: #00474b;
+  --color-dark-grayish-cyan: #5e7a7d;
+  --color-grayish-cyan: #97b0b1;
+  --color-light-grayish-cyan: #c5e4e7;
+  --color-very-light-grayish-cyan: #f3f9fa;
+
+  --color-cyan-hover: #9fe8df;
+  --color-cyan-focus: #20a191;
+  --color-cyan-disabled: #0d686d;
+  --color-input-muted: #6b979b;
+  --color-error: #ce4825;
+  --color-page-ink: #3d6666;
+
+  --text-amount: 2rem;
+  --text-amount-lg: 3rem;
+  --text-value: 1.5rem;
+  --text-button: 1.25rem;
+  --text-label: 1rem;
+  --text-sublabel: 0.8125rem;
+
+  --tracking-amount: -0.020833em;
+
+  --radius-card: 25px;
+  --radius-panel: 15px;
+  --radius-field: 5px;
+
+  --shadow-card: 0 32px 43px rgb(79 166 175 / 0.2);
+}
+
 @theme inline {
   --font-sans: var(--font-space-mono);
+}
+
+@layer base {
+  body {
+    @apply bg-light-grayish-cyan text-very-dark-cyan;
+    line-height: normal;
+  }
+  button:not(:disabled) {
+    @apply cursor-pointer;
+  }
 }
