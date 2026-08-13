@@ -37,10 +37,39 @@
 
 @layer base {
   body {
-    @apply bg-light-grayish-cyan text-very-dark-cyan;
+    @apply bg-light-grayish-cyan font-bold text-very-dark-cyan;
     line-height: normal;
   }
   button:not(:disabled) {
     @apply cursor-pointer;
   }
+}
+
+@utility v-field {
+  @apply flex h-12 items-center rounded-field bg-very-light-grayish-cyan px-4.25;
+  @apply outline-2 -outline-offset-2 outline-transparent focus-within:outline-cyan-focus;
+}
+
+@utility v-field-input {
+  @apply min-w-0 flex-1 bg-transparent text-right text-value caret-strong-cyan outline-none;
+}
+
+@utility v-tip-option {
+  @apply flex h-12 cursor-pointer items-center justify-center rounded-field text-value;
+  @apply transition-colors motion-reduce:transition-none;
+  @apply has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-cyan-focus;
+}
+
+@utility v-reset {
+  @apply h-12 rounded-field bg-strong-cyan text-button text-very-dark-cyan;
+  @apply transition-colors motion-reduce:transition-none;
+  @apply hover:bg-cyan-hover;
+  @apply disabled:bg-cyan-disabled disabled:text-very-dark-cyan/35;
+  @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-focus;
+}
+
+@utility v-footer-link {
+  @apply underline transition-colors motion-reduce:transition-none;
+  @apply hover:text-very-dark-cyan;
+  @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-very-dark-cyan;
 }
