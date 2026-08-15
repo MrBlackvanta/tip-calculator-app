@@ -21,7 +21,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/tip-calculator-app)
-- Live Site URL: [Netlify](https://vanta-tip-calculator-app.netlify.app)
+- Live Site URL: [Cloudflare](https://tip-calculator-app.abdelrhman-ahmed8881.workers.dev)
+- Mirror: [Netlify](https://vanta-tip-calculator-app.netlify.app)
 
 ## My process
 

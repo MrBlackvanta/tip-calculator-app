@@ -12,7 +12,7 @@ const spaceMono = Space_Mono({
 const title = "Splitter — tip calculator";
 const description =
   "Split a bill and its tip evenly between any number of people — a Frontend Mentor challenge built with Next.js, TypeScript, and Tailwind CSS.";
-const siteUrl = "https://vanta-tip-calculator-app.netlify.app";
+const siteUrl = "https://tip-calculator-app.abdelrhman-ahmed8881.workers.dev";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
