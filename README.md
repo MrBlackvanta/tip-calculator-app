@@ -22,7 +22,6 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/tip-calculator-app)
 - Live Site URL: [Cloudflare](https://tip-calculator-app.abdelrhman-ahmed8881.workers.dev)
-- Mirror: [Netlify](https://vanta-tip-calculator-app.netlify.app)
 
 ## My process
 
@@ -90,6 +89,6 @@ The design has no hover, focus or disabled state, so those are additions rather 
 
 ## Author
 
-- UpWork - [Abdelrhman Abdelaal](https://upwork.com/freelancers/~01f0a9479696b61f49)
+- UpWork - [Abdelrhman Abdelaal](https://www.upwork.com/freelancers/mrblackvanta)
 - Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
 - LinkedIn - [Abdelrhman Abdelaal](https://www.linkedin.com/in/abdelrhman-vanta/)
