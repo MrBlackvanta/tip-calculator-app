@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Mono } from "next/font/google";
+import { siteUrl } from "@/app/site";
 import "./globals.css";
 
 const spaceMono = Space_Mono({
@@ -11,9 +12,7 @@ const spaceMono = Space_Mono({
 
 const title = "Splitter — tip calculator";
 const description =
-  "Split a bill and its tip evenly between any number of people — a Frontend Mentor challenge built with Next.js, TypeScript, and Tailwind CSS.";
-const siteUrl = "https://tip-calculator-app.abdelrhman-ahmed8881.workers.dev";
-
+  "Split a bill and its tip evenly between any number of people, with the tip and total shown per person as you type.";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
